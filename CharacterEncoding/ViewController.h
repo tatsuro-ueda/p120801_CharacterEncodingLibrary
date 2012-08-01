@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UITextView *textView;
+- (IBAction)submit:(id)sender;
 @end
